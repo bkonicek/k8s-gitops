@@ -1,4 +1,3 @@
----
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
@@ -15,3 +14,7 @@ spec:
         path: apps/
         repoURL: https://github.com/bkonicek/k8s-gitops.git
         targetRevision: HEAD
+    syncPolicy:
+        automated:
+            prune: true
+            selfHeal: true
