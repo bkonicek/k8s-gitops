@@ -15,7 +15,7 @@ spec:
         helm:
             values: |
                 args:
-                    kubelet-insecure-tls: ""
+                    - kubelet-insecure-tls=""
         repoURL: https://kubernetes-sigs.github.io/metrics-server/
         targetRevision: 3.7.0
     syncPolicy:
