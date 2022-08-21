@@ -4,4 +4,4 @@ metadata:
   name: ingress-nginx-controller
   namespace: ingress-nginx
   annotations:
-    controller.service.annotations.oci\\.oraclecloud\\.com/load-balancer-type: "nlb"
+    oci.oraclecloud.com/load-balancer-type: "nlb"
