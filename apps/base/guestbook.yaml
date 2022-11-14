@@ -11,3 +11,4 @@ spec:
         path: guestbook
     destination:
         namespace: guestbook
+        name: in-cluster
