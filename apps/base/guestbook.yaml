@@ -12,3 +12,6 @@ spec:
     destination:
         namespace: guestbook
         name: in-cluster
+    syncPolicy:
+        syncOptions:
+            - CreateNamespace=true
