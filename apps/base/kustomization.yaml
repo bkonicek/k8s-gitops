@@ -3,4 +3,5 @@ kind: Kustomization
 
 resources:
   - metrics-server.yaml
+  - sealed-secrets.yaml
   # - guestbook.yaml
