@@ -1,7 +1,6 @@
 resources:
   - base/
   - https://github.com/cert-manager/cert-manager/releases/download/v1.9.1/cert-manager.yaml
-  - https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.3.0/deploy/static/provider/cloud/deploy.yaml
-
-patchesStrategicMerge:
-  - ./patches/ingress-nginx.yaml
+  # - https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.3.0/deploy/static/provider/cloud/deploy.yaml
+# patchesStrategicMerge:
+# - ./patches/ingress-nginx.yaml
