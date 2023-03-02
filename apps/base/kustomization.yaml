@@ -5,4 +5,7 @@ resources:
   - metrics-server.yaml
   - sealed-secrets.yaml
   - ingress.yaml
+  - external-dns-ns.yaml
+  - external-dns-cloudflare-secret-sealed.yaml
+  - external-dns.yaml
   # - guestbook.yaml
