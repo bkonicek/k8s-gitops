@@ -7,5 +7,5 @@ resources:
   - ingress.yaml
   - external-dns-ns.yaml
   - external-dns-cloudflare-secret-sealed.yaml
-  # - external-dns.yaml
+  - external-dns.yaml
   # - guestbook.yaml
