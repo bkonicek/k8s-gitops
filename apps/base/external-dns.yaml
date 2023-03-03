@@ -15,6 +15,7 @@ spec:
     helm:
       values: |
         provider: cloudflare
+        policy: sync
         sources:
           - ingress
         txtOwnerId: external-dns
